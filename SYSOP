@@ -1,0 +1,8 @@
+:
+	
+sysop.obj:	sysop.c bbs.h
+	lc1.exe sysop -md
+	lc2.exe sysop
+sysfunc.obj:	sysfunc.c bbs.h
+	lc1.exe sysfunc -md -x
+	lc2.exe sysfunc

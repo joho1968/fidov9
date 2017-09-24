@@ -1,0 +1,95 @@
+:
+	
+bbsmain.obj:	bbsmain.c bbs.h xtelink.h mail.h sched.h nodemap.h
+	lc1.exe bbsmain -md
+	lc2.exe bbsmain
+fido.obj:	fido.c bbs.h
+	lc1.exe fido -md -x
+	lc2.exe fido
+fidonet.obj:	fidonet.c
+	lc1.exe fidonet -md -x
+	lc2.exe fidonet
+tlg.obj:	tlg.c
+	lc1.exe tlg -md -x
+	lc2.exe tlg
+mainmenu.obj:	mainmenu.c bbs.h mail.h
+	lc1.exe mainmenu -md -x
+	lc2.exe mainmenu
+bbs.obj:	bbs.c bbs.h mail.h
+	lc1.exe bbs -md -x
+	lc2.exe bbs
+support.obj:	support.c bbs.h mail.h
+	lc1.exe support -md -x
+	lc2.exe support
+nodestuf.obj:	nodestuf.c bbs.h mail.h
+	lc1.exe nodestuf -md -x
+	lc2.exe nodestuf
+quote.obj:	quote.c bbs.h
+	lc1.exe quote -md -x
+	lc2.exe quote
+signon.obj:	signon.c bbs.h
+	lc1.exe signon -md -x
+	lc2.exe signon
+question.obj:	question.c bbs.h
+	lc1.exe question -md -x
+	lc2.exe question
+prompt.obj:	prompt.c bbs.h
+	lc1.exe prompt -md -x
+	lc2.exe prompt
+msgmenu.obj:	msgmenu.c bbs.h mail.h
+	lc1.exe msgmenu -md -x
+	lc2.exe msgmenu
+message.obj:	message.c bbs.h mail.h
+	lc1.exe message -md -x
+	lc2.exe message
+msend.obj:	msend.c bbs.h mail.h
+	lc1.exe msend -md -x
+	lc2.exe msend
+edit.obj:	edit.c bbs.h
+	lc1.exe edit -md -x
+	lc2.exe edit
+filemenu.obj:	filemenu.c bbs.h xtelink.h
+	lc1.exe filemenu -md -x
+	lc2.exe filemenu
+files.obj:	files.c bbs.h
+	lc1.exe files -md -x
+	lc2.exe files
+chat.obj:	chat.c bbs.h sched.h
+	lc1.exe chat -md -x
+	lc2.exe chat
+bufio.obj:	bufio.c bbs.h
+	lc1.exe bufio -md -x
+	lc2.exe bufio
+xfileio.obj:	xfileio.c bbs.h xtelink.h
+	lc1.exe xfileio -md -x
+	lc2.exe xfileio
+badname.obj:	badname.c
+	lc1.exe badname -md
+	lc2.exe badname
+descfile.obj:	descfile.c bbs.h
+	lc1.exe descfile -md -x
+	lc2.exe descfile
+sched.obj:	sched.c bbs.h sched.h
+	lc1.exe sched -md -x
+	lc2.exe sched
+schedset.obj:	schedset.c sched.h
+	lc1.exe schedset -md -x
+	lc2.exe schedset
+mail.obj:	mail.c bbs.h mail.h xtelink.h nodemap.h
+	lc1.exe mail -md -x
+	lc2.exe mail
+unpacket.obj	unpacket.c bbs.h mail.h pkthdr.h
+	lc1.exe unpacket -md -x
+	lc2.exe unpacket
+packet.obj:	packet.c bbs.h mail.h pkthdr.h nodemap.h
+	lc1.exe packet -md -x
+	lc2.exe packet
+markmsg.obj:	markmsg.c bbs.h mail.h
+	lc1.exe markmsg -md -x
+	lc2.exe markmsg
+markusr.obj:	markusr.c bbs.h mail.h
+	lc1.exe markusr -md -x
+	lc2.exe markusr
+dial.obj:	dial.c bbs.h
+	lc1.exe dial -md -x
+	lc2.exe dial
